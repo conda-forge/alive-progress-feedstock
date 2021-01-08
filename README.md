@@ -5,11 +5,9 @@ Home: https://pypi.org/project/alive-progress/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alive-progress-feedstock/blob/master/LICENSE.txt)
 
 Summary: An animated and smart Progress Bar for python.
-
-
 
 Current build status
 ====================
