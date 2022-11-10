@@ -1,5 +1,5 @@
 {% set name = "alive-progress" %}
-{% set version = "1.6.2" %}
+{% set version = "2.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 642e1ce98becf226c8c36bf24e10221085998c5465a357a66fb83b7dc618b43e
+  sha256: 089757c8197f27ad972ba27e1060f6db92368d83c736884e159034fd74865323
 
 build:
   number: 0
