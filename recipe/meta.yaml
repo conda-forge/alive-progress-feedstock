@@ -18,9 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.7,<4
   run:
-    - python
+    - python >=3.7,<4
+    - about-time
+    - grapheme ==0.6.0
 
 test:
   imports:
@@ -31,8 +33,8 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/alive-progress/
-  summary: An animated and smart Progress Bar for python.
+  home: https://github.com/rsalmei/alive-progress
+  summary: A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!
   license: MIT
   license_file: LICENSE
 
