@@ -21,7 +21,7 @@ requirements:
     - python >=3.7,<4
   run:
     - python >=3.7,<4
-    - about-time
+    - about-time ==3.1.1
     - grapheme ==0.6.0
 
 test:
