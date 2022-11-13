@@ -1,5 +1,5 @@
 {% set name = "alive-progress" %}
-{% set version = "1.6.2" %}
+{% set version = "2.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 642e1ce98becf226c8c36bf24e10221085998c5465a357a66fb83b7dc618b43e
+  sha256: 089757c8197f27ad972ba27e1060f6db92368d83c736884e159034fd74865323
 
 build:
   number: 0
@@ -18,9 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.7,<4
   run:
-    - python
+    - python >=3.7,<4
+    - about-time ==3.1.1
+    - grapheme ==0.6.0
 
 test:
   imports:
@@ -31,8 +33,8 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/alive-progress/
-  summary: An animated and smart Progress Bar for python.
+  home: https://github.com/rsalmei/alive-progress
+  summary: A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!
   license: MIT
   license_file: LICENSE
 
