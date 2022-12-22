@@ -1,13 +1,13 @@
 About alive-progress
 ====================
 
-Home: https://pypi.org/project/alive-progress/
+Home: https://github.com/rsalmei/alive-progress
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alive-progress-feedstock/blob/main/LICENSE.txt)
 
-Summary: An animated and smart Progress Bar for python.
+Summary: A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!
 
 Current build status
 ====================
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@Brainor](https://github.com/Brainor/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
 
