@@ -1,11 +1,11 @@
-About alive-progress
-====================
+About alive-progress-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alive-progress-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rsalmei/alive-progress
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/alive-progress-feedstock/blob/main/LICENSE.txt)
 
 Summary: A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!
 
