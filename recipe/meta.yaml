@@ -23,7 +23,7 @@ requirements:
   run:
     - python >={{ python_min }},<4
     - about-time ==4.2.1
-    - graphemeu
+    - graphemeu ==0.7.2
 
 test:
   imports:
