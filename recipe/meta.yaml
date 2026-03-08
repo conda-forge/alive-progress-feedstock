@@ -1,5 +1,5 @@
 {% set name = "alive-progress" %}
-{% set version = "3.2.0" %}
+{% set version = "3.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ede29d046ff454fe56b941f686f89dd9389430c4a5b7658e445cb0b80e0e4deb
+  sha256: 457dd2428b48dacd49854022a46448d236a48f1b7277874071c39395307e830c
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >={{ python_min }},<4
     - about-time ==4.2.1
-    - grapheme ==0.6.0
+    - graphemeu ==0.7.2
 
 test:
   imports:
